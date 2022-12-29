@@ -103,14 +103,17 @@ const numbersArray = [12,23,43,11,9,2,121,90];
 
 
 
+
 for(n = 0; n < numbersArray.length; n++) {
-     if(31 < (numbersArray[i]) || (numbersArray[i]) % 2 == 0){
-        console.log('Element is greater than provided value and is EVEN');
+        if(numbersArray[n]> 31 & numbersArray[n] % 2 == 0){
+            console.log('Element is greater than provided value and is EVEN');
         }
-        else(31 > (numbersArray[i]) || (numbersArray[i]) % 2 != 0); {
-        console.log('Element is less than provided value and is ODD');
+        else if(numbersArray[n] < 31 & numbersArray[n] % 2 !=0){
+            console.log('Element is less than provided value and is ODD');
         }
-}
+    
+    }
+
 
 
 
