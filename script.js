@@ -13,14 +13,13 @@ let brother = {
     name :  "Levani" ,
     age : 21,
 }
+let difference = sister.age - brother.age;
 
-let ageDiff = 'ანა ლევანზე 7 წლით უფროსია';
-
-if(sister.age - brother.age == 7) {
-    console.log(ageDiff);
-}
+let ageDiff = `ანა ლევანზე ${difference} წლით უფროსია`;
 
 
+
+console.log(ageDiff);
 
 
 
@@ -84,7 +83,12 @@ console.log( "TASK 4" );
 
 const boxArray = ["Banana", "Orange", "Apple", "Mango",2,12];
 
+let p = 0;
 
+while(typeof (boxArray[p]) == 'string'){
+    console.log(boxArray[p]);
+    p++;
+}
 
 
 
@@ -95,4 +99,19 @@ console.log( "TASK 5" );
 
 
 const numbersArray = [12,23,43,11,9,2,121,90];
+
+
+
+
+for(n = 0; n < numbersArray.length; n++) {
+     if(31 < (numbersArray[i]) || (numbersArray[i]) % 2 == 0){
+        console.log('Element is greater than provided value and is EVEN');
+        }
+        else(31 > (numbersArray[i]) || (numbersArray[i]) % 2 != 0); {
+        console.log('Element is less than provided value and is ODD');
+        }
+}
+
+
+
 
